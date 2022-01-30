@@ -1,3 +1,9 @@
 oc new-app --as-deployment-config --name react-app https://github.com/karl-gif/react-demo.git#deployment_test
 
 oc expose service/react-app
+
+
+
+http://react-app-react-demo.apps-crc.testing/
+
+
