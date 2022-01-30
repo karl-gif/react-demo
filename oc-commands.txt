@@ -8,6 +8,9 @@ oc set probe dc/react-app --readiness --get-url=http://:3000/ --initial-delay-se
 
 oc set probe dc/react-app --liveness --get-url=http://:3000/ --initial-delay-seconds=20 --period-seconds=10 --timeout-seconds=30 --success-threshold=1 --failure-threshold=3
 
+
+watch -n 2 oc get pods
+
 http://localhost:3000/
 
 http://react-app-react-demo.apps-crc.testing/
