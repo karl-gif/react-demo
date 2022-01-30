@@ -4,7 +4,7 @@ oc new-app --as-deployment-config --name react-app https://github.com/karl-gif/r
 
 oc expose service/react-app
 
-
+http://localhost:3000/
 
 http://react-app-react-demo.apps-crc.testing/
 
