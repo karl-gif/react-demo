@@ -60,7 +60,7 @@ export async function getStaticProps(context) {
 
   // client.close();
 
-  const selectedMeetup =  JSON.parse('{"title": "Cat", "image": "https://media.istockphoto.com/photos/portrait-of-a-cat-picture-id174875518", "description": "Fluffy Cat", "_id": "1"}')
+  const selectedMeetup =  JSON.parse('{"title": "Cat", "image": "https://media.istockphoto.com/photos/best-friends-picture-id473016906", "description": "Fluffy Cat", "_id": "1"}')
 
 
   return {
