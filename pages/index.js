@@ -26,7 +26,7 @@ export async function getStaticProps() {
 
   count = count + 1;
 
-  const meetups =  JSON.parse('[{"title": "Cat", "image": "https://media.istockphoto.com/photos/best-friends-picture-id473016906", "_id": "1"}, {"title": "Dog", "image": "https://media.istockphoto.com/vectors/fluid-colors-abstract-background-vector-id1185949017", "_id": "2"}]')
+  const meetups =  JSON.parse('[{"title": "Pet", "image": "https://media.istockphoto.com/photos/portrait-of-a-cat-picture-id174875518", "_id": "1"}]')
 
 
 
