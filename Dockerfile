@@ -16,4 +16,4 @@ RUN chgrp -R 0 /opt/app-root && \
 
 USER 1001
 
-CMD ["sh", "-c", "echo 'sleep 2' && sleep 2 && npm start"]
+CMD ["sh", "-c", "echo 'sleep 20' && sleep 20 && npm start"]
