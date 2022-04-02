@@ -4,7 +4,7 @@ WORKDIR /opt/app-root
 
 COPY . .
 
-RUN  npm install  && fix-permissions ./  &&   npm run build
+RUN  npm install  &&   npm run build
 
 EXPOSE 3000
 
